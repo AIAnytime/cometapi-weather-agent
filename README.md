@@ -8,6 +8,8 @@ changing one string.
 
 The tools call [Open-Meteo](https://open-meteo.com/), which is free and needs no key.
 
+![Architecture](architecture.jpg)
+
 ## What it does
 
 Ask something like *"Is it good weather for a run in Bengaluru today?"* and the agent:
@@ -43,6 +45,7 @@ python agent.py
 | --- | --- |
 | `agent.py` | Tools, graph and model wiring |
 | `app.py` | Streamlit chat UI with a model picker |
+| `make_diagram.py` | Regenerates `architecture.jpg` |
 
 ## Notes
 
